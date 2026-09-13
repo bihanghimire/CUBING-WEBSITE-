@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #111827, #1e293b, #0f172a);
+    color: #f8fafc;
+    line-height: 1.7;
+    min-height: 100vh;
+    padding-bottom: 50px;
+    text-transform: capitalize;
+}
+
+
+.my-button {
+    background: linear-gradient(135deg, #3b82f6, #2563eb);
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    margin: 20px 8px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(37, 99, 235, 0.35);
+    transition: all 0.3s ease;
+}
+
+.my-button:hover {
+    transform: translateY(-3px);
+    background: linear-gradient(135deg, #60a5fa, #3b82f6);
+    box-shadow: 0 8px 20px rgba(59, 130, 246, 0.5);
+}
+
+.my-button:active {
+    transform: translateY(0);
+}
+
+
+body > h1,
+body > h2,
+body > p,
+body > img,
+body > a {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+h1 {
+    margin-top: 35px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'Press Start 2P', cursive;
+    
+
+    background: linear-gradient(
+        90deg,
+        #ef4444,
+        #facc15,
+        #22c55e,
+        #3b82f6
+    );
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    margin-top: 50px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 2 rem;
+    color: #facc15;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+p {
+    max-width: 850px;
+    margin: 18px auto;
+    padding: 0 20px;
+    color: #dbeafe;
+    font-size: 17px;
+}
+
+p:first-of-type {
+    font-size: 19px;
+}
+
+
+.cross {
+    background: rgba(255, 255, 255, 0.06);
+    border-left: 5px solid #22c55e;
+    padding: 18px 25px;
+    border-radius: 0 12px 12px 0;
+}
+
+
+
+img {
+    display: block;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 3px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
+    transition: all 0.3s ease;
+}
+
+body > img {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+
+img:hover {
+    transform: scale(1.03);
+    border-color: #facc15;
+    box-shadow: 0 15px 35px rgba(250, 204, 21, 0.2);
+}
+
+
+
+a img {
+    width: 300px;
+    height: 200px;
+}
+
+a img:hover {
+    transform: scale(1.05);
+    border-color: #ef4444;
+    box-shadow: 0 15px 35px rgba(239, 68, 68, 0.35);
+}
+
+
+h2 + img {
+    width: 250px;
+    height: 150px;
+    margin-bottom: 25px;
+}
+
+
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 10px;
+    }
+
+    .my-button {
+        padding: 10px 15px;
+        font-size: 13px;
+    }
+
+    h1 {
+        font-size: 2rem;
+        letter-spacing: 2px;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    h2 + img {
+        width: 90%;
+        height: auto;
+    }
+
+    a img {
+        width: 90%;
+        height: auto;
+    }
+}
+
+
+
+
+
+
+.ALGORITHM{
+    background: linear-gradient(
+        to right,
+        red,
+        orange,
+        yellow,
+        green,
+        blue,
+        violet );
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+
+text-transform: none;
+}
+
+
+h3 {
+    <br>
+  font-size: 18px;
+  font-weight: 600;
+  padding-left: 12px;
+  border-left: 4px solid #2563eb;
+  color: darkred;
+}
+

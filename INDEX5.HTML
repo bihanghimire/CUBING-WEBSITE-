@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>CubeTimer</title>
+<link REL="FUNCTIONALITY" href="script.js">
+  <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+
+  <div class="app">
+
+    <header class="topbar">
+      <div class="brand">
+        <div class="cube-logo">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <div>
+          <h1>CubeTimer</h1>
+          <p>Speedcubing Timer</p>
+        </div>
+      </div>
+
+      <div class="keyboard-hint">
+        <kbd>SPACE</kbd>
+        <span>Start / Stop</span>
+      </div>
+    </header>
+
+
+    <main>
+
+      <section class="scramble-section">
+
+        <div class="section-label">
+          <span>SCRAMBLE</span>
+          <button id="newScramble">New Scramble</button>
+        </div>
+
+        <div id="scramble" class="scramble">
+          R U R' F2 D L2 B' U2 R F' D2
+        </div>
+
+      </section>
+
+
+      <section class="timer-section">
+
+        <div id="timer" class="timer">
+          0.00
+        </div>
+
+        <div id="timerStatus" class="timer-status">
+          Press SPACE to start
+        </div>
+
+      </section>
+
+
+      <section class="stats">
+
+        <div class="stat-card">
+          <span class="stat-label">SOLVES</span>
+          <strong id="solveCount">0</strong>
+        </div>
+
+        <div class="stat-card">
+          <span class="stat-label">BEST</span>
+          <strong id="bestTime">--</strong>
+        </div>
+
+        <div class="stat-card">
+          <span class="stat-label">AVERAGE</span>
+          <strong id="averageTime">--</strong>
+        </div>
+
+      </section>
+
+
+      <section class="history-section">
+
+        <div class="section-title">
+          <h2>Recent Solves</h2>
+
+          <button id="clearHistory" class="clear-btn">
+            Clear
+          </button>
+        </div>
+
+        <div id="history" class="history">
+          <div class="empty-history">
+            Your solves will appear here
+          </div>
+        </div>
+
+      </section>
+
+    </main>
+
+
+    <footer>
+      <span>CubeTimer</span>
+      <span>Spacebar to start & stop</span>
+    </footer>
+
+  </div>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
